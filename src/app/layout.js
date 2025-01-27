@@ -11,13 +11,12 @@ import Footer from '../components/Footer'
 
 const urduFont = Noto_Nastaliq_Urdu({
   weight: ['400'],
-  subsets: ['arabic'],
 });
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${urduFont.className}`}>
+      <body className={`${urduFont.className} sans-serif font-serif`}>
         <Navbar />
         <main>{children}</main>
         <Footer />

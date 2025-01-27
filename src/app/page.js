@@ -367,7 +367,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <section className="container mx-auto py-12 bg-gray-50 leading-9 text-right" dir='rtl'>
+        <section className="container mx-auto py-12 bg-gray-50 leading-9 text-right text-gray-800" dir='rtl'>
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             {/* Sections */}
             <div className="space-y-10">
@@ -427,6 +427,113 @@ export default function HomePage() {
               </div>
             </div>
 
+            <section className="container mx-auto py-12 bg-gray-50 leading-9 text-right" dir='rtl'>
+              <div className="max-w-7xl mx-auto px-6 lg:px-8">
+                {/* Header */}
+                <section className="relative bg-blue-600 text-white py-8 md:py-10">
+                  <div className="container mx-auto px-6 text-center">
+                    <h1 className="text-2xl md:text-3xl font-extrabold mb-4">
+                      آئندہ کا لائحہ عمل
+                    </h1>
+                  </div>
+                </section>
+
+                {/* Sections */}
+                <div className="mt-12 space-y-10">
+                  {/* علماء کرام کی حوصلہ افزائی */}
+                  <div className="pt-8">
+                    <h3 className="text-2xl font-bold text-gray-800">
+                      علماء کرام کی حوصلہ افزائی
+                    </h3>
+                    <ul className="mt-4 text-gray-700 list-disc pl-6">
+                      <li>محفلِ فن کے تحت تقریری مقابلہ جات کا انعقاد۔</li>
+                      <li>بھاری انعامات کی صورت میں کامیاب افراد کو نوازا جائے گا۔</li>
+                    </ul>
+                  </div>
+
+                  {/* طلبہ کے لیے کوئز مقابلہ جات اور تربیت */}
+                  <div className="border-t border-gray-300 pt-8">
+                    <h3 className="text-2xl font-bold text-gray-800">
+                      طلبہ کے لیے کوئز مقابلہ جات اور تربیت
+                    </h3>
+                    <ul className="mt-4 text-gray-700 list-disc pl-6">
+                      <li>
+                        ائمہ مساجد کے طلبہ جو ناظرہ قرآن پڑھتے ہیں، ان کے لیے ادارے کی
+                        طرف سے تیار کردہ نصاب کی بنیاد پر کوئز مقابلہ جات۔
+                      </li>
+                      <li>علماء کرام کی حوصلہ افزائی کے لیے خصوصی تقریبات کا انعقاد۔</li>
+                      <li>
+                        طلبہ کی بہترین تربیت پر خصوصی توجہ دی جائے گی:
+                        <ul className="list-disc pl-6 mt-2">
+                          <li>طلبہ کو پانچ وقت کی نماز کا پابند بنانا۔</li>
+                          <li>قرآن پاک سے منتخب موضوعات کی تعلیم دینا۔</li>
+                        </ul>
+                      </li>
+                      <li>
+                        ان طلبہ کے اساتذہ کو بھی خصوصی انعامات دیے جائیں گے، تاکہ ان کی
+                        محنت کو سراہا جا سکے۔
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* آن لائن ارننگ کورسز */}
+                  <div className="border-t border-gray-300 pt-8">
+                    <h3 className="text-2xl font-bold text-gray-800">
+                      آن لائن ارننگ کورسز
+                    </h3>
+                    <ul className="mt-4 text-gray-700 list-disc pl-6">
+                      <li>علماء کرام کے لیے آن لائن ارننگ کورسز کی فراہمی۔</li>
+                      <li>
+                        حاضری کی بنیاد پر قرعہ اندازی کے ذریعے لیپ ٹاپ انعامات میں دیے
+                        جائیں گے۔
+                      </li>
+                      <li>
+                        یہ اقدامات علماء کرام کو معاشی طور پر مستحکم اور خود کفیل بنانے
+                        کے لیے کیے جائیں گے۔
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* مقاصد */}
+                  <div className="border-t border-gray-300 pt-8">
+                    <h3 className="text-2xl font-bold text-gray-800">مقاصد</h3>
+                    <ul className="mt-4 text-gray-700 list-disc pl-6">
+                      <li>علماء کرام کی علمی و معاشی ترقی کو فروغ دینا۔</li>
+                      <li>
+                        طلبہ اور علماء کو ان کے ٹیلنٹ کے مطابق مواقع فراہم کرنا۔
+                      </li>
+                      <li>
+                        طلبہ میں اسلامی اقدار، نماز کی پابندی، اور دینی علم کو پروان
+                        چڑھانا۔
+                      </li>
+                      <li>
+                        جدید ٹیکنالوجی سے علماء کرام کو روشناس کرانا تاکہ وہ دورِ حاضر کے
+                        چیلنجز کا مقابلہ کرسکیں۔
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* حصہ */}
+                  <div className="border-t border-gray-300 pt-8">
+                    <h3 className="text-2xl font-bold text-gray-800">کارخیر میں شامل ہوں</h3>
+                    <ul className="mt-4 text-gray-700 list-disc pl-6">
+                      <li>ہمیں ایسے علماء کرام کی تلاش جو تجربہ کار ٹرینرزہیں۔</li>
+                      <li>
+                        علماء کرام کو جدید ارننگ سکلز سکھانے والے ہنر مند نوجوان ہمارے ساتھ شامل ہوں۔
+                      </li>
+                      <li>
+                        ایسے علماء کرام کو مدعو کیا جاتا ہے جو امامت، خطابت، یا تدریس کے مواقع کے خواہشمند ہوں۔
+                      </li>
+                      <li>
+                        جدید ٹیکنالوجی سے علماء کرام کو روشناس کرانا تاکہ وہ دورِ حاضر کے
+                        چیلنجز کا مقابلہ کرسکیں۔
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
             {/* Conclusion */}
             <div className="mt-12 bg-blue-200 flex flex-col md:flex-row items-center md:items-start p-10 space-y-10 md:space-y-0 md:space-x-10">
               {/* Image Section */}
@@ -451,6 +558,9 @@ export default function HomePage() {
                   <p className="text-gray-600 text-sm mt-1">
                     کوارڈینیٹر "جمعیت اہل حدیث پاکستان علماء سکلز پروگرام" <br />
                     ڈپٹی سیکرٹری اطلاعات جمعیت اہل حدیث پاکستان
+                  </p>
+                  <p>
+                    034147099088 {"-"} 03008842669
                   </p>
                 </div>
               </div>
