@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        notoNastaliqUrdu: ['"Noto Nastaliq Urdu"', 'serif'],
+      },
       animation: {
         fadeIn: "fadeIn 1.5s ease-in-out",
         slideInLeft: "slideInLeft 1s ease-in-out",
