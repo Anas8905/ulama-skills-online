@@ -16,5 +16,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Noto Nastaliq Urdu', serif;
+  font-family: 'Arial', serif;
 }

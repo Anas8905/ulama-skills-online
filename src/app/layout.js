@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`font-notoNastaliqUrdu sans-serif font-serif`}>
+      <body className={`sans-serif md:font-notoNastaliqUrdu`}>
         <Navbar />
         <main>{children}</main>
         <Footer />
