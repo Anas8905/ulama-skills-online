@@ -383,7 +383,7 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className="relative pt-8 px-4 md:px-16 container bg-white shadow-md rounded-2xl p-6 mx-auto h-[800px]">
+              <div className="relative pt-8 px-4 md:px-16 container bg-white shadow-md rounded-2xl p-6 mx-auto h-[800px] overflow-scroll">
                 {/* Left Arrow */}
                 <button onClick={handlePrevious} className="absolute left-0 top-1/2 transform -translate-y-1/2 p-3 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 transition-all" aria-label="Previous Section">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
