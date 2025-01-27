@@ -11,6 +11,7 @@ import Footer from '../components/Footer'
 
 const urduFont = Noto_Nastaliq_Urdu({
   weight: ['400'],
+  subsets: ['arabic'],
 });
 
 export default function RootLayout({ children }) {
