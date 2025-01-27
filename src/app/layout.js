@@ -1,5 +1,4 @@
 import './globals.css';
-import { Noto_Nastaliq_Urdu } from 'next/font/google';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 
@@ -7,12 +6,6 @@ import Footer from '../components/Footer'
 //   title: 'My Website',
 //   description: 'A website built with Next.js App Router',
 // };
-
-
-const urduFont = Noto_Nastaliq_Urdu({
-  weight: ['400'],
-  subsets: ['arabic'],
-});
 
 export default function RootLayout({ children }) {
   return (
@@ -29,7 +22,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className={`font-notoNastaliqUrdu ${urduFont.className} sans-serif font-serif`}>
+      <body className={`font-notoNastaliqUrdu sans-serif font-serif`}>
         <Navbar />
         <main>{children}</main>
         <Footer />
