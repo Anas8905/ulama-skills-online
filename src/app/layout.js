@@ -10,18 +10,6 @@ import Footer from '../components/Footer'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* Preload the font */}
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400&display=swap"
-          as="style"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400&display=swap"
-          rel="stylesheet"
-        />
-      </head>
       <body className={`font-notoNastaliqUrdu sans-serif font-serif`}>
         <Navbar />
         <main>{children}</main>
