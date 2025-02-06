@@ -69,8 +69,8 @@ export default function Navbar() {
           <NavItem href="/" label="ہوم پیج" active={pathname === '/'} />
           <NavItem href="/about" label="تعارف" active={pathname === '/about'} />
           <NavItem href="/courses" label="کورسز" active={pathname === '/courses'} />
-          <NavItem href="/donate" label="تعاون کریں" active={pathname === '/donate'} />
-          <NavItem href="/submit" label="شامل ہوں" active={pathname === '/submit'} />
+          <NavItem href="/course-form" label="رجسٹریشن فارم" active={pathname === '/course-form'} />
+          <NavItem href="/submit" label="ممبرشپ فارم" active={pathname === '/submit'} />
         </ul>
       </div>
 
@@ -103,7 +103,8 @@ export default function Navbar() {
           <NavItem href="/" label="ہوم پیج" active={pathname === '/'} />
           <NavItem href="/about" label="تعارف" active={pathname === '/about'} />
           <NavItem href="/courses" label="کورسز" active={pathname === '/courses'} />
-          <NavItem href="/submit" label="شامل ہوں" active={pathname === '/submit'} />
+          <NavItem href="/course-form" label="رجسٹریشن فارم" active={pathname === '/course-form'} />
+          <NavItem href="/submit" label="ممبرشپ فارم" active={pathname === '/submit'} />
         </ul>
       </div>
     </nav>

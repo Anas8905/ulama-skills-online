@@ -14,11 +14,6 @@ export default function AboutPage() {
         {/* Content Section */}
         <div className="max-w-4xl mx-auto px-6 text-right">
           <div className="p-4">
-          <p className="text-lg mt-4 text-gray-700 leading-9">
-              الحمد للہ، جمعیت اہل حدیث پاکستان ہمیشہ نفاذِ اسلام، دفاعِ اسلام، ختمِ نبوت، اور علماء و مساجد کے تحفظ میں قائدانہ کردار ادا کررہی ہے۔
-            </p>
-          </div>
-          <div className="p-4">
             <p className="text-lg text-gray-800 leading-9">
               جماعت کا بنیادی مقصد دین کی سربلندی اور ان علمائے کرام کی فلاح و بہبود ہے جو اس عظیم مشن کا حصہ ہیں۔ قائد محترم علامہ ہشام الہی ظہیر صاحب کی زیرِ سرپرستی جمیعت اہل حدیث پاکستان نے علمائے کرام کی معاشی ترقی اور پیشہ ورانہ مہارتوں میں اضافہ کے لیے "علماء سکلز پروگرام" کا آغاز کیا ہے۔
             </p>
@@ -34,13 +29,39 @@ export default function AboutPage() {
             یہ تمام منصوبے جمعیت اہل حدیث پاکستان علماء سکلز پروگرام کے تحت کامیابی سے جاری ہیں۔ یہ اقدام علمائے کرام کی پیشہ ورانہ اور معاشی ترقی کے ذریعے دین اور دنیا دونوں میں کامیابی کو ممکن بنانے کے لیے ہے۔
             </p>
           </div>
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mt-2 font-medium">
-              عبدالحنان طور (کوارڈینیٹر علماء سکلز پروگرام)
-              <br />
-              ڈپٹی سیکرٹری اطلاعات جمعیت اہل حدیث پاکستان
-            </p>
-          </div>
+        </div>
+
+        <div className="max-w-4xl mx-auto px-6 mt-10" dir="rtl">
+          <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">
+            اہداف و مقاصد
+          </h2>
+
+          <ul className="space-y-4 text-lg text-gray-700 text-right">
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> دینِ اسلام کی ترویج و اشاعت کے لیے جدوجہد کرنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> احیائے قرآن و سنت اور نفاذِ اسلام کے لیے کوشاں رہنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> ناموسِ رسالت، عقیدہ ختمِ نبوت، ناموسِ صحابہ و اہلِ بیت رضوان اللہ علیہم اجمعین کے دفاع کے لیے جدوجہد کرنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> اسلامی تہذیب و تمدن پر مغربی یلغار اور الحاد کا مقابلہ کرنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> اہلِ حدیثوں کی مذہبی و سیاسی قوت کو یونین کونسل کی سطح تک منظم اور فعال کرنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> نظریۂ توحید و سنت کو عام کرنے کے لیے نوجوانوں میں عقابی روح پیدا کرنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> علماء، مساجد، مدارس اور شعائرِ اللہ کا دفاع کرنا۔
+            </li>
+            <li className="flex items-start space-x-2">
+              <span className="ml-2">✔</span> وطنِ عزیز کی نظریاتی اور جغرافیائی سرحدوں کی حفاظت کرنا۔
+            </li>
+          </ul>
         </div>
 
         {/* Call to Action Section */}
